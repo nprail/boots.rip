@@ -1,1 +1,1 @@
-# boots.rip
+Boots is dead.
