@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>In Memory of Boots</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Fallback styles in case Tailwind doesn't load */
+        body {
+            margin: 0;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background-color: #111827;
+            color: #f3f4f6;
+        }
+        .container {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 1rem;
+        }
+        .content {
+            max-width: 56rem;
+            width: 100%;
+        }
+        h1, h2 {
+            text-align: center;
+            font-weight: bold;
+            margin: 0;
+        }
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            color: #ffffff;
+        }
+        h2 {
+            font-size: 4rem;
+            margin-bottom: 0.5rem;
+            color: #fbbf24;
+        }
+        .badge {
+            display: inline-block;
+            background-color: #1f2937;
+            padding: 0.5rem 1.5rem;
+            border-radius: 9999px;
+            font-size: 1.25rem;
+            color: #d1d5db;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        .image-container {
+            margin-bottom: 2rem;
+            display: flex;
+            justify-content: center;
+        }
+        .image-wrapper {
+            max-width: 42rem;
+            width: 100%;
+            border-radius: 0.5rem;
+            overflow: hidden;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+            border: 4px solid #374151;
+        }
+        .image-wrapper img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .message-box {
+            background-color: #1f2937;
+            border-radius: 0.5rem;
+            padding: 2rem;
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+            border: 1px solid #374151;
+            text-align: center;
+        }
+        .message-text {
+            font-size: 1.5rem;
+            font-weight: 300;
+            color: #e5e7eb;
+            font-style: italic;
+            line-height: 1.75;
+        }
+        .footer {
+            margin-top: 3rem;
+            text-align: center;
+            font-size: 0.875rem;
+            color: #6b7280;
+        }
+        @media (min-width: 768px) {
+            h1 { font-size: 3.75rem; }
+            h2 { font-size: 4.5rem; }
+            .message-text { font-size: 1.875rem; }
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-gray-100">
+    <div class="container min-h-screen flex flex-col items-center justify-center p-4">
+        <div class="content max-w-4xl w-full">
+            <!-- Header -->
+            <div class="header text-center mb-8">
+                <h1 class="text-5xl md:text-6xl font-bold mb-4 text-white">
+                    In Loving Memory of
+                </h1>
+                <h2 class="text-6xl md:text-7xl font-bold mb-2 text-amber-400">
+                    Boots
+                </h2>
+                <div class="badge inline-block bg-gray-800 px-6 py-2 rounded-full">
+                    <p class="text-xl text-gray-300">Forever in our hearts 🐾</p>
+                </div>
+            </div>
+
+            <!-- Image -->
+            <div class="image-container mb-8 flex justify-center">
+                <div class="image-wrapper max-w-2xl w-full rounded-lg overflow-hidden shadow-2xl border-4 border-gray-700">
+                    <img src="C01_2287.jpg" 
+                         alt="Boots the cat" 
+                         class="w-full h-auto">
+                </div>
+            </div>
+
+            <!-- Memorial Message -->
+            <div class="text-center">
+                <div class="message-box bg-gray-800 rounded-lg p-8 shadow-xl border border-gray-700">
+                    <p class="message-text text-2xl md:text-3xl font-light text-gray-200 italic leading-relaxed">
+                        "A beloved companion who brought joy, comfort, and unconditional love into our lives. 
+                        Your memory will live on forever in our hearts."
+                    </p>
+                </div>
+            </div>
+
+            <!-- Footer -->
+            <div class="footer mt-12 text-center">
+                <p class="text-gray-500 text-sm">
+                    🌈 Rest in Peace, sweet Boots 🌈
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
